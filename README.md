@@ -1,125 +1,124 @@
-# Java Core & OOP Fundamentals 🚀
+# ☕ Java Core & Object-Oriented Programming (OOP) Fundamentals
 
-A comprehensive, structured collection of core Java applications, interactive console projects, and Object-Oriented Programming (OOP) design patterns.
+[![Java](https://img.shields.io/badge/Java-8%20--%2021+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
+[![Object-Oriented Programming](https://img.shields.io/badge/Architecture-OOP_Design_Patterns-blue?style=for-the-badge)](https://github.com/irmakKartal/Java-Core-and-OOP-Fundamentals)
+[![Author](https://img.shields.io/badge/Author-Irmak_Kartalkayası-blueviolet?style=for-the-badge)](https://github.com/irmakKartal)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-![Java](https://img.shields.io/badge/Language-Java_8+-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+A structured, production-grade portfolio demonstrating core Java software engineering principles, algorithm design, control flow patterns, clean code practices, and robust Object-Oriented Programming (OOP) architecture.
+
+> 👤 **Author & Copyright:** [Irmak Kartalkayası](https://github.com/irmakKartal)  
+> 💻 **Tech Stack:** Java SE (Standard Edition), OOP Design Principles, Console Application Architecture  
+> 📄 **License:** MIT License  
 
 ---
 
-## 📌 Overview
+## 📌 Repository Overview
 
-This repository demonstrates practical Java development skills ranging from algorithm fundamentals and control flow to object-oriented architecture and realistic console applications. It serves as both a personal portfolio and a reference guide for clean Java practices.
+This repository demonstrates essential software engineering competencies in Java, bridging algorithmic problem-solving with enterprise-grade Object-Oriented design. The codebase is organized into three progressive architectural tiers:
+
+1. **`01-Basics-and-Logic/`**: Algorithmic problem solving, mathematical modeling, and control flow optimization.
+2. **`02-Console-Mini-Projects/`**: Complete domain-specific console applications modeling real-world business workflows.
+3. **`03-OOP-Principles/`**: Enterprise design patterns emphasizing Encapsulation, Multi-level Inheritance, and Polymorphism.
 
 ---
 
-## 📂 Repository Structure
+## 📂 Architecture & Directory Structure
 
-```tree
+```text
 Java-Core-and-OOP-Fundamentals/
 ├── 01-Basics-and-Logic/
-│   ├── Calculator.java             # Console arithmetic calculator (+, -, *, /)
-│   ├── CoordinateSystem.java       # 2D Cartesian plane quadrant detector
-│   ├── Factorial.java              # Factorial computation using loops
-│   ├── NumberGuessingGame.java     # Interactive random number guessing game
-│   ├── NumberOperations.java       # Parity, sign check, and number comparisons
-│   ├── SpeedRadar.java             # Highway speed radar and penalty evaluator
-│   └── WeatherAdvisor.java         # Temperature-based clothing and activity advisor
+│   ├── Calculator.java             # Menu-driven arithmetic calculator with input guards
+│   ├── CoordinateSystem.java       # 2D Cartesian plane quadrant and axis detector
+│   ├── Factorial.java              # Iterative computation using loop invariants
+│   ├── NumberGuessingGame.java     # Pseudo-random generation with game loop state
+│   ├── NumberOperations.java       # Parity validation and magnitude comparison
+│   ├── SpeedRadar.java             # Automated speed radar penalty & threshold evaluator
+│   └── WeatherAdvisor.java         # Multi-branch temperature & activity recommendation
 │
 ├── 02-Console-Mini-Projects/
 │   ├── 01-Hospital-Appointment-System/
-│   │   └── HospitalAppointment.java    # Clinic branch, department & slot reservation
+│   │   └── HospitalAppointment.java    # Multi-branch clinic, department & appointment slip booking
 │   ├── 02-Ticket-Booking-System/
-│   │   └── TicketBooking.java          # Event booking with tiered age discounts
+│   │   └── TicketBooking.java          # Multi-event pricing engine with tiered demographic discounts
 │   ├── 03-Student-Grading-System/
-│   │   └── StudentGradeSystem.java     # Weighted exam scoring & letter grade evaluator
+│   │   └── StudentGradeSystem.java     # Weighted exam computation (40/60) with letter grade mapping
 │   └── 04-Lottery-Game/
-│       └── LotteryGame.java            # Multi-stage lucky number matching game
+│       └── LotteryGame.java            # Multi-stage randomized lottery game with state tracking
 │
 └── 03-OOP-Principles/
     ├── 01-Encapsulation/
-    │   ├── Person.java             # Data hiding, validation guards & static methods
-    │   └── EncapsulationDemo.java  # Test harness demonstrating encapsulation
+    │   ├── Person.java             # Data hiding, defensive validation, and constructor overloading
+    │   └── EncapsulationDemo.java  # Test harness demonstrating safe mutator state validation
     └── 02-Inheritance-and-Polymorphism/
-        ├── Employee.java           # Base corporate entity
-        ├── Manager.java            # Single inheritance extending department info
-        ├── Director.java           # Multi-level inheritance with executive allowances
-        └── InheritanceDemo.java    # Polymorphic execution over class hierarchy
+        ├── Employee.java           # Abstract base corporate entity with encapsulated attributes
+        ├── Manager.java            # Single inheritance extending departmental responsibilities
+        ├── Director.java           # Multi-level inheritance introducing executive bonus structures
+        └── InheritanceDemo.java    # Dynamic method dispatch and runtime polymorphism via Employee[]
 ```
 
 ---
 
-## 🧩 Modules & Key Features
+## 🧩 Architectural Highlights & Key Modules
 
-### 1. `01-Basics-and-Logic`
-Foundational programming constructs:
-* **Control Structures**: `if-else` branches, nested conditionals, and `switch-case`.
-* **Iteration**: `while` and `for` loops for arithmetic accumulation and game loops.
-* **Input Validation & Geometry**: 2D coordinate plane quadrant and axis logic.
+### 1. ⚙️ Core Logic & Algorithms (`01-Basics-and-Logic`)
+* **Structured Control Flow:** Clean implementation of conditional branching (`if-else-if`, `switch-case`) and iterative loops (`while`, `for`).
+* **Input Validation & Boundary Handling:** Interactive CLI reading using `java.util.Scanner` with defensive range checking.
+* **Algorithmic Computations:** 2D geometric coordinate evaluation, factorial calculation, and randomized game loops.
 
-### 2. `02-Console-Mini-Projects`
-Standalone interactive console applications modeling real-world workflows:
-* 🏥 **Hospital Appointment Booking**: Allows users to select hospitals (West/East), clinical departments (Neurology, Orthopedics, Dermatology), and time slots, generating a confirmed booking slip.
-* 🎟️ **Event Ticket Booking**: Evaluates ticket pricing across Cinema, Theater, and Concert categories, applying custom pricing policies and discounts based on age brackets.
-* 🎓 **University Grade System**: Computes a weighted overall average (40% Midterm + 60% Final) and translates scores to standard academic letter grades (`AA` to `FF`).
-* 🎰 **3-Stage Lottery Game**: Generates randomized multi-stage lucky numbers and tracks player matches.
+### 2. 🏢 Interactive Business Applications (`02-Console-Mini-Projects`)
+* 🏥 **Hospital Appointment Reservation:** Models real-world clinic operations (branch selection, multi-specialty routing between Neurology, Orthopedics, and Dermatology, and time-slot booking with confirmed appointment vouchers).
+* 🎟️ **Event Ticketing Engine:** Implements commercial pricing policies across Cinema, Theater, and Concert venues with dynamic age-tier discount matrices.
+* 🎓 **Academic Grade Evaluation System:** Computes weighted academic performance (40% Midterm + 60% Final) and generates letter grade conversions (`AA` through `FF`).
+* 🎰 **Multi-Stage Lottery Game:** Utilizes pseudo-random number generation (`Math.random()`) to evaluate matching stages and prize tiers.
 
-### 3. `03-OOP-Principles`
-Enterprise design practices demonstrating core object-oriented principles:
-* 🔒 **Encapsulation (`01-Encapsulation`)**:
-  * Private instance variables ensuring robust data protection.
-  * Public getter/setter pairs with business validation logic (e.g. guarding against negative ages).
-  * Constructor overloading (`Person()`, `Person(name)`, `Person(name, age)`).
-  * Use of `this` keyword and static utility methods.
-* 🏢 **Inheritance & Polymorphism (`02-Inheritance-and-Polymorphism`)**:
-  * Corporate hierarchy: `Employee` $\rightarrow$ `Manager` $\rightarrow$ `Director`.
-  * Multi-level inheritance and re-use of superclass initialization (`super(...)`).
-  * Method overriding (`@Override getDetails()`) dynamically resolved at runtime through a polymorphic `Employee[]` array.
+### 3. 🏛️ Enterprise Object-Oriented Design (`03-OOP-Principles`)
+* 🔒 **Encapsulation & Defensive Programming:**
+  * Strict access modification (`private` fields, `public` getters/setters).
+  * Mutator validation guards preventing illegal object states (e.g., negative ages).
+  * Constructor chaining and overloading (`Person()`, `Person(name)`, `Person(name, age)`).
+* 🌲 **Inheritance & Polymorphism:**
+  * Clean corporate hierarchy: `Employee` $\rightarrow$ `Manager` $\rightarrow$ `Director`.
+  * Proper superclass delegation via `super(...)` constructors and method overrides (`@Override getDetails()`).
+  * Dynamic method dispatch: Iterating over heterogeneous `Employee[]` arrays where runtime polymorphism automatically executes the specialized subclass logic.
 
 ---
 
 ## 🛠️ How to Compile & Run
 
 ### Prerequisites
-* **Java Development Kit (JDK) 8+** installed.
-* Verify your Java setup:
+* **Java Development Kit (JDK 8 or newer)** installed on your machine.
+* Verify your environment:
   ```bash
   java -version
   javac -version
   ```
 
-### Running Any Program
-Navigate to the directory of the program and compile it using `javac`, then run with `java`:
+### Execution Instructions
 
-#### Example: Run Hospital Appointment System
-```bash
-cd "02-Console-Mini-Projects/01-Hospital-Appointment-System"
-javac HospitalAppointment.java
-java HospitalAppointment
-```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/irmakKartal/Java-Core-and-OOP-Fundamentals.git
+   cd Java-Core-and-OOP-Fundamentals
+   ```
 
-#### Example: Run OOP Inheritance Demo
-```bash
-cd "03-OOP-Principles/02-Inheritance-and-Polymorphism"
-javac *.java
-java InheritanceDemo
-```
+2. **Run a Mini-Project (e.g., Hospital Appointment System):**
+   ```bash
+   cd "02-Console-Mini-Projects/01-Hospital-Appointment-System"
+   javac HospitalAppointment.java
+   java HospitalAppointment
+   ```
 
----
-
-## 💡 Concepts Demonstrated
-
-| Category | Topics Covered |
-| :--- | :--- |
-| **Language Fundamentals** | Data types, operators, Scanner I/O, formatting |
-| **Control Flow** | Conditionals, branching, loops, sentinel values |
-| **Mathematical Logic** | Randomization, cartesian coordinates, factorials |
-| **Object-Oriented Design** | Classes, Objects, Constructors, Encapsulation |
-| **Inheritance** | Single & Multi-level inheritance, `super` keyword |
-| **Polymorphism** | Method overriding, runtime dynamic method dispatch |
+3. **Run OOP Inheritance & Polymorphism Demo:**
+   ```bash
+   cd "03-OOP-Principles/02-Inheritance-and-Polymorphism"
+   javac *.java
+   java InheritanceDemo
+   ```
 
 ---
 
-## 📄 License
-This repository is open source and available under the [MIT License](LICENSE).
+## 📄 License & Copyright
+
+This project is open-source and licensed under the **MIT License**.  
+Copyright © 2026 **[Irmak Kartalkayası](https://github.com/irmakKartal)**. All rights reserved.
